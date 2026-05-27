@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{lcccccccc}
+\toprule
+Model & Absent & Supp. indirect & Mention & Supp.--Absent & 95\% CI & $p$ & Mention--Supp. & $p$ \\
+\midrule
+Llama 3 8B Inst. & 0.138 & 0.553 & 0.772 & 0.414 & [0.404, 0.425] & $<.001$ & 0.219 & $<.001$ \\
+Mistral 7B Inst. & 0.088 & 0.459 & 0.550 & 0.372 & [0.360, 0.383] & $<.001$ & 0.091 & $<.001$ \\
+Gemma 7B IT & 0.131 & 0.537 & 0.708 & 0.406 & [0.394, 0.418] & $<.001$ & 0.171 & $<.001$ \\
+\bottomrule
+\end{tabular}
+\caption{
+Condition-ordering analysis for cross-model indirect suppression experiments. Values are mean probe scores over matched concept, context, and layer rows. Pairwise differences are evaluated using paired bootstrap confidence intervals and paired sign-flip permutation tests. All models exhibit the ordering Mention $>$ Suppression$_{\mathrm{indirect}}$ $>$ Absent.
+}
+\label{tab:condition-ordering}
+\end{table*}

@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             mean_delta   R-squared:                       0.523
+Model:                            OLS   Adj. R-squared:                  0.478
+Method:                 Least Squares   F-statistic:                     11.78
+Date:                Tue, 19 May 2026   Prob (F-statistic):           3.51e-11
+Time:                        15:37:17   Log-Likelihood:                 164.77
+No. Observations:                  95   AIC:                            -311.5
+Df Residuals:                      86   BIC:                            -288.6
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================================================
+                                                             coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------
+Intercept                                                  0.4181      0.014     29.455      0.000       0.390       0.446
+C(model_short)[T.Llama 3 8B Inst.]                         0.0168      0.020      0.854      0.395      -0.022       0.056
+C(model_short)[T.Mistral 7B Inst.]                        -0.0064      0.020     -0.326      0.745      -0.045       0.033
+C(region)[T.late]                                          0.0001      0.020      0.006      0.995      -0.040       0.040
+C(region)[T.middle]                                       -0.0393      0.021     -1.906      0.060      -0.080       0.002
+C(model_short)[T.Llama 3 8B Inst.]:C(region)[T.late]       0.0368      0.028      1.328      0.188      -0.018       0.092
+C(model_short)[T.Mistral 7B Inst.]:C(region)[T.late]      -0.0366      0.028     -1.320      0.190      -0.092       0.019
+C(model_short)[T.Llama 3 8B Inst.]:C(region)[T.middle]    -0.0593      0.028     -2.106      0.038      -0.115      -0.003
+C(model_short)[T.Mistral 7B Inst.]:C(region)[T.middle]    -0.0444      0.028     -1.580      0.118      -0.100       0.011
+==============================================================================
+Omnibus:                        4.476   Durbin-Watson:                   0.750
+Prob(Omnibus):                  0.107   Jarque-Bera (JB):                5.710
+Skew:                          -0.075   Prob(JB):                       0.0575
+Kurtosis:                       4.192   Cond. No.                         14.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

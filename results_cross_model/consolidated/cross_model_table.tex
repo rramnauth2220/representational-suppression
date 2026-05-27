@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{l l c c c c c c c}
+\toprule
+Model & Pooling & AUC & Acc. & Peak layer & Peak $\Delta$ & 95\% CI & $d$ & $p$ \
+\midrule
+Llama 3 8B Inst. & mean\_nonpad & 0.916 & 0.824 & 1 & 0.511 & [0.444, 0.577] & 1.25 & $<.001$ \
+Mistral 7B Inst. & mean\_nonpad & 0.900 & 0.806 & 0 & 0.526 & [0.455, 0.591] & 1.33 & $<.001$ \
+Gemma 7B IT & mean\_nonpad & 0.910 & 0.811 & 28 & 0.481 & [0.426, 0.535] & 1.53 & $<.001$ \
+\bottomrule
+\end{tabular}
+\caption{Cross-model replication of indirect suppression salience. Peak $\Delta$ denotes the maximum layerwise difference between indirect suppression and concept-absent baselines.}
+\label{tab:cross-model-suppression}
+\end{table*}

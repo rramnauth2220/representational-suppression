@@ -1,0 +1,4 @@
+model,model_short,run_dir,pooling,probe_accuracy,probe_auc,probe_f1
+google/gemma-7b-it,Gemma 7B IT,results_cross_model/gemma_indirect_only/google_gemma-7b-it__pool-mean_nonpad__seed-42,mean_nonpad,0.8109082713545188,0.9096424010217113,0.8055898593993177
+meta-llama/Meta-Llama-3-8B-Instruct,Llama 3 8B Inst.,results_cross_model/llama_indirect_only/meta-llama_Meta-Llama-3-8B-Instruct__pool-mean_nonpad__seed-42,mean_nonpad,0.8240670005375887,0.9159184436962214,0.8160776051949595
+mistralai/Mistral-7B-Instruct-v0.2,Mistral 7B Inst.,results_cross_model/mistral_indirect_only/mistralai_Mistral-7B-Instruct-v0.2__pool-mean_nonpad__seed-42,mean_nonpad,0.8061002178649238,0.9000902268876124,0.7979482430511712

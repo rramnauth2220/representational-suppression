@@ -1,0 +1,10 @@
+model,model_short,run_dir,condition,mean_score,ci95_low,ci95_high,n
+meta-llama/Meta-Llama-3-8B-Instruct,Llama 3 8B Inst.,results_cross_model\llama_indirect_only\meta-llama_Meta-Llama-3-8B-Instruct__pool-mean_nonpad__seed-42,absent,0.13829372591820227,0.13177139368065718,0.1447764531609602,4488
+meta-llama/Meta-Llama-3-8B-Instruct,Llama 3 8B Inst.,results_cross_model\llama_indirect_only\meta-llama_Meta-Llama-3-8B-Instruct__pool-mean_nonpad__seed-42,mentioned,0.7720587800904475,0.7635523135440309,0.7801052683983609,4488
+meta-llama/Meta-Llama-3-8B-Instruct,Llama 3 8B Inst.,results_cross_model\llama_indirect_only\meta-llama_Meta-Llama-3-8B-Instruct__pool-mean_nonpad__seed-42,suppressed_indirect,0.5525896949931798,0.5419933212814267,0.5628917705600398,4488
+mistralai/Mistral-7B-Instruct-v0.2,Mistral 7B Inst.,results_cross_model\mistral_indirect_only\mistralai_Mistral-7B-Instruct-v0.2__pool-mean_nonpad__seed-42,absent,0.08780433142547268,0.08283279549133982,0.09321610126338256,4488
+mistralai/Mistral-7B-Instruct-v0.2,Mistral 7B Inst.,results_cross_model\mistral_indirect_only\mistralai_Mistral-7B-Instruct-v0.2__pool-mean_nonpad__seed-42,mentioned,0.5503573711406645,0.5402417188202767,0.5603630128592918,4488
+mistralai/Mistral-7B-Instruct-v0.2,Mistral 7B Inst.,results_cross_model\mistral_indirect_only\mistralai_Mistral-7B-Instruct-v0.2__pool-mean_nonpad__seed-42,suppressed_indirect,0.4594086848616485,0.4482481267567236,0.4704968216786315,4488
+google/gemma-7b-it,Gemma 7B IT,results_cross_model\gemma_indirect_only\google_gemma-7b-it__pool-mean_nonpad__seed-42,absent,0.13098552084344736,0.12438261409498866,0.138013453794853,3944
+google/gemma-7b-it,Gemma 7B IT,results_cross_model\gemma_indirect_only\google_gemma-7b-it__pool-mean_nonpad__seed-42,mentioned,0.7078089804538696,0.697377826575817,0.7181635495528879,3944
+google/gemma-7b-it,Gemma 7B IT,results_cross_model\gemma_indirect_only\google_gemma-7b-it__pool-mean_nonpad__seed-42,suppressed_indirect,0.5369168537071372,0.5253539614563952,0.5488246353991726,3944
