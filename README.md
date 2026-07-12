@@ -295,3 +295,8 @@ If you use this code, please cite:
 ```bibtex
 [Citation to be added upon publication]
 ```
+
+# License
+Code in this repository is licensed under the Apache License 2.0.
+
+The concept library and released experimental data are licensed under CC BY 4.0 unless otherwise noted.
